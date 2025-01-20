@@ -1,16 +1,9 @@
+import { Greeting } from "./Greeting";
+import { Message } from "./Message";
+
 export const App = () => {
-  return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
-  );
+  return <>
+  <Message message = 'Це виконане завдання' />
+  <Greeting name = 'Marko'/>
+  </>
 };
